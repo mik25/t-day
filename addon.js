@@ -7,9 +7,9 @@ import { Buffer } from "buffer";
 const verif = ['1080p','2160p','BluRay' ]
 const nonverif = ['.FRENCH.', '.TRUEFRENCH.', ' VFQ ']
 const apiKey = 'QJGBR7CTIGNUHNSGQH2M6GL527M7DGZF2Y6Y556QNSB35AOQS57A'
-const jackettUrl = 'http://94.23.216.74:9117'
-const jackettApi = 'veaafa7j0tz4bs61yrbyxl49n99flsx1'
-const jackettIndexer = 'milkie'
+const jackettUrl = 'http://98.97.70.217:9117'
+const jackettApi = 'dkkgc3sfj5j7d6zs51jbuzxab6vqy00u'
+const jackettIndexer = 'torrentday'
 const jackettMovieCat = '2000'
 const jackettSerieCat = '5000'
 
@@ -23,7 +23,7 @@ const manifest = {
     "catalogs": [],
     "resources": ["stream"],
     "types": ["movie", "series", "tv"],
-    "name": "Jackett Milkie",
+    "name": "Jackett Tday",
     "description": "Stremio Jackett Addon"
 };
 
