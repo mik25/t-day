@@ -7,9 +7,9 @@ import { Buffer } from "buffer";
 const verif = []
 const nonverif = []
 const apiKey = 'QJGBR7CTIGNUHNSGQH2M6GL527M7DGZF2Y6Y556QNSB35AOQS57A'
-const jackettUrl = 'http://81.156.223.238:9117'
-const jackettApi = 'ozh0zenhc5t9w5hzxkig5uejar4qhdp3'
-const jackettIndexer = 'torrentdownload'
+const jackettUrl = 'http://45.154.87.104:9117'
+const jackettApi = '6ebybwn3luj2nwyx4063naqjx82hvwuj'
+const jackettIndexer = 'torrentdownloads'
 const jackettMovieCat = '2000'
 const jackettSerieCat = '5000'
 
