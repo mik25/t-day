@@ -23,7 +23,7 @@ const manifest = {
     "catalogs": [],
     "resources": ["stream"],
     "types": ["movie", "series", "tv"],
-    "name": "Jackett YTS",
+    "name": "Torrentdownloads",
     "description": "Stremio Jackett Addon"
 };
 
