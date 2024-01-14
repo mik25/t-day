@@ -4,7 +4,7 @@ import fetch from 'node-fetch';
 import torrent2magnet from "torrent2magnet-js";
 import { Buffer } from "buffer";
 
-const verif = []
+const verif = ['x264','720p','1080p','2160p','Bluray']
 const nonverif = []
 const apiKey = 'QJGBR7CTIGNUHNSGQH2M6GL527M7DGZF2Y6Y556QNSB35AOQS57A'
 const jackettUrl = 'http://45.154.87.104:9117'
