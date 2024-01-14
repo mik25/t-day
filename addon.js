@@ -11,7 +11,7 @@ const jackettUrl = 'http://45.154.87.104:9117'
 const jackettApi = '6ebybwn3luj2nwyx4063naqjx82hvwuj'
 const jackettIndexer = 'torrentdownloads'
 const jackettMovieCat = '2000'
-const jackettSerieCat = '5000'
+const jackettSerieCat = '100004'
 
 const noResults = { streams: [{ url: "#", title: "No results found" }] };
 
