@@ -4,12 +4,12 @@ import fetch from 'node-fetch';
 import torrent2magnet from "torrent2magnet-js";
 import { Buffer } from "buffer";
 
-const verif = ['1080p','2160p','BluRay' ]
-const nonverif = ['.FRENCH.', '.TRUEFRENCH.', ' VFQ ']
+const verif = []
+const nonverif = []
 const apiKey = 'QJGBR7CTIGNUHNSGQH2M6GL527M7DGZF2Y6Y556QNSB35AOQS57A'
-const jackettUrl = 'http://100.15.31.4:9117'
-const jackettApi = 'pzbwbyw7cno3g94ryqre5guyjplmxa2r'
-const jackettIndexer = 'yts'
+const jackettUrl = 'http://81.156.223.238:9117'
+const jackettApi = 'ozh0zenhc5t9w5hzxkig5uejar4qhdp3'
+const jackettIndexer = 'torrentdownload'
 const jackettMovieCat = '2000'
 const jackettSerieCat = '5000'
 
