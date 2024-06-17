@@ -424,7 +424,7 @@ let fetchTorrent = async (query, type = "series") => {
 
   let url = `${
     hostdata.host
-  }/api/v2.0/indexers/torrentday/results/torznab/api?apikey=${
+  }/api/v2.0/indexers/kickasstorrents-to/results/torznab/api?apikey=${
     hostdata.apiKey
   }&${type == "movie" ? "t=movie" : "t=tvsearch"}&${
     type == "movie" ? "cat=2000" : "cat=5000"
@@ -560,10 +560,10 @@ app
 
     //
     var json = {
-      id: "hy.jacketttd.stream",
+      id: "hy.jackettka.stream",
       version: "1.0.3",
-      name: "Torrentday Addon",
-      description: "Movie & TV Streams from Jackett ",
+      name: "kickasstorrents-to",
+      description: "Movie & TV Streams from kickasstorrents-to",
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4YPuSbuMa6gaJU3pDmUeUKy3MERQKhMksKQ&s",
       resources: [
         {
