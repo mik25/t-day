@@ -1,6 +1,5 @@
-http://45.136.230.28:9117|avdqr9rsjijszptzkgnnhklngujyjjcd
-http://45.87.250.134:9117|dppvca6gsy4yl8tsu63mxpack9e4med5
-http://193.32.2.172:9117|95y7bim19ieylgqionmjs2ggggwj0gh3
-http://45.152.211.9:9117|nba9o0egz6lox44eo4oh9yfql0p6j066
-http://193.23.249.155:9117|1osysztrp4bo3dnrzb02bpx2yow0hgao
-http://98.97.70.217:9117|dkkgc3sfj5j7d6zs51jbuzxab6vqy00u
+http://129.146.231.142:9117/zmjfyrhmw1mglgzob14pxkvghva6shax
+http://216.70.20.53:9117/gnzi9k7a6q7fif1rqsxse2by2dhb3lpv
+http://81.156.223.238:9117/ozh0zenhc5t9w5hzxkig5uejar4qhdp3
+http://193.23.249.243:9117/rcw50vgm19ovaqsc4mb946ibm0vwusyq
+http://193.23.250.218:9117/23lk3zuid3wsx4qjivlna7viumz2phuk
