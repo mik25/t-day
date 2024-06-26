@@ -424,10 +424,10 @@ let fetchTorrent = async (query, type = "series") => {
 
   let url = `${
     hostdata.host
-  }/api/v2.0/indexers/kickasstorrents-to/results/torznab/api?apikey=${
+  }/api/v2.0/indexers/torrentscsv/results/torznab/api?apikey=${
     hostdata.apiKey
   }&${type == "movie" ? "t=movie" : "t=tvsearch"}&${
-    type == "movie" ? "cat=103583" : "cat=112696"
+    type == "movie" ? "cat=8000" : "cat=8000"
   }&q=${query}&cache=false`;
 
   //console.log({ url });
