@@ -25,6 +25,7 @@
     "node-fetch": "^2.6.12",
     "parse-torrent": "^9.1.5",
     "parse-torrent-name": "^0.5.4",
+    "redis": "^4.7.0",
     "torrent-stream": "^1.2.1"
   }
 }

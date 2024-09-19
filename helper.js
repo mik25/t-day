@@ -1,14 +1,10 @@
 const fetch = require("node-fetch");
 
 const rdapikeys = [
-  "RUHIU6EVPFHTZWWIXOWSQCJ6DEHQ62ZCK3FFF6XUHKZOJTX6OTWQ",
-  "BTSEMPCAPSGSPQSFU73XY327XGPRHLKVND6MAYQ274DV3W6XRCHA",
   "WYRY33OCFSGGFNWKX6XI3CZHXX2UVFEZLVIV2QYERCUFLSDIOYDQ",
-  "LRZ4I326A33CNCU4VD5BTG3VUL66MMXDROL45PS7QMZQ2A36VE4A",
+  "CD6I3C56PPD64YUSV2CIDKAXBREBMS3CLI6TJVWJV7JOT6XCZGNQ",
 ];
 const rdapikey = rdapikeys[Math.floor(Math.random() * rdapikeys.length)];
-
-// ====================== RD =================================
 
 let headers = {
   Authorization: `Bearer ${rdapikey}`,
@@ -23,7 +19,6 @@ let checkTorrentFileinRD = async (hash = "") => {
     let resJson = await res.json();
     return resJson;
   } catch (error) {
-    // console.log({ error });
     return null;
   }
 };
@@ -61,7 +56,7 @@ let selectFilefromRD = async (id = "", files = "all") => {
   let url = `https://api.real-debrid.com/rest/1.0/torrents/selectFiles/${id}`;
   try {
     let form = new URLSearchParams();
-    form.append("files", files);
+    form.append("files", "all");
     let res = await fetch(url, { method: "POST", headers, body: form });
     if (res.status < 400) return true;
     return false;
