@@ -563,11 +563,11 @@ const toStream = async (
 };
 
 const qualities = {
-  "4k": "🌟4k",
-  fhd: "🎥FHD",
-  hd: "📺HD",
-  sd: "📱SD",
-  unknown: "none",
+  "4k": "♔4k",
+  fhd: "♕FHD",
+  hd: "♖HD",
+  sd: "♘SD",
+  unknown: "🎬",
 };
 
 const vf = ["vf", "vff", "french", "frn"];
