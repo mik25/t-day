@@ -1,3 +1,6 @@
+const path = require("path");
+const serversFilePath = path.resolve(__dirname, "./servers.txt");
+
 require("dotenv").config();
 const express = require("express");
 const app = express();
