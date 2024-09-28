@@ -4,7 +4,6 @@ const parseTorrent = require("parse-torrent");
 const express = require("express");
 const app = express();
 const fetch = require("node-fetch");
-// var WebTorrent = require("webtorrent");
 var torrentStream = require("torrent-stream");
 const { XMLParser } = require("fast-xml-parser");
 const {
