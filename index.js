@@ -3,7 +3,6 @@ const express = require("express");
 const app = express();
 const { removeDuplicate } = require("./helper");
 const UTILS = require("./utils");
-
 const REGEX = {
   season_range:
     /S(?:(eason )|(easons )|(eason )|(easons )|(aisons )|(aison ))?(?<start>\d{1,2})\s*?(?:-|&|à|et)\s*?(?<end>\d{1,2})/, //start and end Sxx-xx|Season(s) xx-xx|Sxx à xx
