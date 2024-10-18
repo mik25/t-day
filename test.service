@@ -1,0 +1,19 @@
+[Unit]
+Description=Jackett addon for Stremio
+After=network.target multi-user.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/app/jackett-addon
+ExecStart=/usr/bin/npm start
+Restart=always
+Environnement=NODE_ENV=production
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=myjackett
+
+[Install]
+WantedBy=multi-user.target
+
+
+

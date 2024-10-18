@@ -14,7 +14,7 @@
     "nzb",
     "nzbhydra"
   ],
-  "author": "mikmc",
+  "author": "daniwalter001",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
