@@ -1,6 +1,5 @@
 require("dotenv").config();
 const express = require("express");
-
 const app = express();
 const { removeDuplicate } = require("./helper");
 const UTILS = require("./utils");
