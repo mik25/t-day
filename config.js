@@ -1,9 +1,9 @@
 const config = {
   id: "hy.jacketttpbr.stream",
   version: "1.0.0",
-  name: "IPT",
+  name: "IPtorrents",
   description: "Movie & TV Streams",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/The_Pirate_Bay_logo.svg/904px-The_Pirate_Bay_logo.svg.png",
+  logo: "https://http2.mlstatic.com/D_NQ_NP_903993-MLB46933227304_072021-O.webp",
   resources: [
     {
       name: "stream",
