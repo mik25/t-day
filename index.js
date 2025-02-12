@@ -561,7 +561,7 @@ app
     var json = {
       id: "hy.jacketttd.stream",
       version: "1.0.3",
-      name: "Torrentday Addon",
+      name: "Torrentday",
       description: "Movie & TV Streams from Jackett ",
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4YPuSbuMa6gaJU3pDmUeUKy3MERQKhMksKQ&s",
       resources: [
