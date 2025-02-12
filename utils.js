@@ -198,7 +198,7 @@ let fetchTorrent2 = async (query, type = "series") => {
   let hostdata = hosts[Math.floor(Math.random() * hosts.length)];
   if (!hostdata) return [];
 
-  let url = `${hostdata.host}/api/v2.0/indexers/all/results?apikey=${hostdata.apiKey}&Query=${query}&Tracker%5B%5D=iptorrents&Category%5B%5D=2000&Category%5B%5D=2040&Category%5B%5D=2045&Category%5B%5D=2050&Category%5B%5D=2080&Category%5B%5D=5000&Category%5B%5D=5030&Category%5B%5D=5040&Category%5B%5D=5080&Category%5B%5D=8000&Category%5B%5D=100020&Category%5B%5D=100022&Category%5B%5D=100026&Category%5B%5D=100048&Category%5B%5D=100065&Category%5B%5D=100068&Category%5B%5D=100073&Category%5B%5D=100076&Category%5B%5D=100099&Category%5B%5D=100100&Category%5B%5D=100101&cache=false`;
+  let url = `${hostdata.host}/api/v2.0/indexers/all/results?apikey=${hostdata.apiKey}&Query=${query}&Tracker%5B%5D=torrentleech&category=2000&category=2010&category=2030&category=2040&category=2045&category=2050&category=2070&category=2080&category=5000&category=5030&category=5040&category=5080&category=8000&cache=false`;
 
   return await fetch(url, {
     headers: {
