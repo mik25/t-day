@@ -1,7 +1,7 @@
 const config = {
-  id: "hy.jacketttpbr.stream",
+  id: "hy.jackettttl.stream",
   version: "1.0.0",
-  name: "IPtorrents",
+  name: "Torrentleech",
   description: "Movie & TV Streams",
   logo: "https://http2.mlstatic.com/D_NQ_NP_903993-MLB46933227304_072021-O.webp",
   resources: [
