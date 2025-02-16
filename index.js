@@ -30,9 +30,9 @@ app
     var json = {
       id: "hy.jackettrdos.stream",
       version: "2.0.0",
-      name: "IPTorrday",
+      name: "Torrentday",
       description: "Movie & TV Streams",
-      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Gs56d_rHcDEY6C6HFqjv113Br2Yc3IpU8A&s",
+      logo: "https://p1.hiclipart.com/preview/954/89/219/torrentday-icon-td-png-icon-thumbnail.jpg",
       resources: [
         {
           name: "stream",
