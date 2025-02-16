@@ -1,9 +1,9 @@
 const config = {
   id: "hy.jacketttpbr.stream",
   version: "1.0.0",
-  name: "IPtorrents",
+  name: "Trellas",
   description: "Movie & TV Streams",
-  logo: "https://http2.mlstatic.com/D_NQ_NP_903993-MLB46933227304_072021-O.webp",
+  logo: "https://trellas.me/data/gallery/l/greeksubsper1.png",
   resources: [
     {
       name: "stream",
