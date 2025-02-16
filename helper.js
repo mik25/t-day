@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 
 const rdapikeys = [
   // "SJ65TDDYCXOMVWFYHSN3ZQTLFO3YT3DYHSUQZGV7EIBE3G7DJHSA",
-  "MWSWTCYAE6IYXURMWCTBBVK5RACCMWFRKQI7XZPFJHHHFOWZ4HNA",
+  "WYRY33OCFSGGFNWKX6XI3CZHXX2UVFEZLVIV2QYERCUFLSDIOYDQ",
 ];
 const rdapikey = rdapikeys[Math.floor(Math.random() * rdapikeys.length)];
 
