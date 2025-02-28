@@ -1,9 +1,9 @@
 const config = {
   id: "hy.jacketttpbr.stream",
   version: "1.0.0",
-  name: "Trellas",
+  name: "YourbitRD",
   description: "Movie & TV Streams",
-  logo: "https://trellas.me/data/gallery/l/greeksubsper1.png",
+  logo: "https://www.hackercombat.com/wp-content/uploads/2018/07/YourBittorrent-one-of-the-major-forces-on-the-internet.jpg",
   resources: [
     {
       name: "stream",
