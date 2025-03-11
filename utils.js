@@ -198,7 +198,7 @@ let fetchTorrent2 = async (query, type = "series") => {
   let hostdata = hosts[Math.floor(Math.random() * hosts.length)];
   if (!hostdata) return [];
 
-  let url = `${hostdata.host}/api/v2.0/indexers/all/results?apikey=${hostdata.apiKey}&Query=${query}&tracker=yourbittorrent&category=2000&category=5000&category=8000&cache=false`;
+  let url = `${hostdata.host}/api/v2.0/indexers/all/results?apikey=${hostdata.apiKey}&Query=${query}&tracker=trellas&category=2000&category=2030&category=2050&category=5000&category=5030&category=5040&category=8000&category=100001&category=100014&category=100016&category=100017&category=100044&category=100052&category=100053&category=100063&category=100070&category=100076&category=100082&category=100084&category=100086&category=100087&category=100092&category=100099&cache=false`;
 
   return await fetch(url, {
     headers: {
